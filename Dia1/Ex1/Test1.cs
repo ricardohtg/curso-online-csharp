@@ -21,7 +21,7 @@ namespace Ex1
 			PessoaFisica pf= new PessoaFisica("Soares");
             pf.setCPF("45647782507");
 			pf.setNascimento(2000);
-			pf.setRG("55666-10");
+            pf.setRG("55666-10");
 
 			Assert.AreEqual("Soares", pf.getNome()); 
 			Assert.AreNotEqual(6, pf.getIdade());
@@ -78,6 +78,6 @@ namespace Ex1
 		public void Dispose()
 		{
 		}
-	} 
+	}
 }
 
